@@ -28,3 +28,6 @@ My approach combines technical rigor with a deep focus on **Accessibility** — 
 - **Universal Access:** A strong advocate for **Accessibility**, ensuring products meet the highest standards for all users.
 
 ---
+## 🌍 Languages & OS
+- **OS:** Windows, iOS
+- **Languages:** 🇺🇦 Ukrainian (Native) | en English (Intermediate) | 🇸🇰 Slovak (Pre-Intermediate)
