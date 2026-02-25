@@ -41,12 +41,12 @@ I am currently deepening my hands-on experience with **Playwright** for automate
 ---
 ### 📜 Certifications & Education
 
-* **QA Manual Testing Professional** – [View Certificate](./certificates/Kuliak_QA_Certificate.pdf)
-* **API Testing with Postman** – [View Certificate](./certificates/Kuliak_WEB_Testing_Certificate.pdf)
-* **SQL** – [View Certificate](./certificates/Kuliak_SQL_Certificate.pdf)
-* **Mobile Testing** - [View Certificate](./certificates/Kuliak_Mobile_Testing_Certificate.pdf)
-* **JavaScript** - [View Certificate](./certificates/Kuliak_JavaScript_Certificate.pdf)
-* **JavaScript** - [View Certificate](./certificates/Kuliak_Playwright_Certificate.pdf)
+* **QA Manual Testing Professional** – [View Certificate](./Certificates/Kuliak_QA_Certificate.pdf)
+* **API Testing with Postman** – [View Certificate](./Certificates/Kuliak_WEB_Testing_Certificate.pdf)
+* **SQL** – [View Certificate](./Certificates/Kuliak_SQL_Certificate.pdf)
+* **Mobile Testing** - [View Certificate](./Certificates/Kuliak_Mobile_Testing_Certificate.pdf)
+* **JavaScript** - [View Certificate](./Certificates/Kuliak_JavaScript_Certificate.pdf)
+* **Playwright** - [View Certificate](./Certificates/Kuliak_Playwright_Certificate.pdf)
 
 ---
 ## 📫 Let's Connect
