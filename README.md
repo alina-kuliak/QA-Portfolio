@@ -31,3 +31,10 @@ My approach combines technical rigor with a deep focus on **Accessibility** — 
 ## 🌍 Languages & OS
 - **OS:** Windows, iOS
 - **Languages:** 🇺🇦 Ukrainian (Native) | en English (Intermediate) | 🇸🇰 Slovak (Pre-Intermediate)
+
+---
+## 📈 Current Growth Path
+> "Quality is not just about code that works; it's about creating a seamless, accessible experience for every human being who interacts with your brand."
+
+I am currently deepening my hands-on experience with **Playwright** for automated end-to-end testing and exploring advanced **CI/CD** integration to streamline the QA pipeline.
+
