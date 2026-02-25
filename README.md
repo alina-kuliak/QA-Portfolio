@@ -39,7 +39,16 @@ My approach combines technical rigor with a deep focus on **Accessibility** — 
 I am currently deepening my hands-on experience with **Playwright** for automated end-to-end testing and exploring advanced **CI/CD** integration to streamline the QA pipeline.
 
 ---
+### 📜 Certifications & Education
 
+* **QA Manual Testing Professional** – [View Certificate](./certificates/Kuliak_QA_Certificate.pdf)
+* **API Testing with Postman** – [View Certificate](./certificates/Kuliak_WEB_Testing_Certificate.pdf)
+* **SQL** – [View Certificate](./certificates/Kuliak_SQL_Certificate.pdf)
+* **Mobile Testing** - [View Certificate](./certificates/Kuliak_Mobile_Testing_Certificate.pdf)
+* **JavaScript** - [View Certificate](./certificates/Kuliak_JavaScript_Certificate.pdf)
+* **JavaScript** - [View Certificate](./certificates/Kuliak_Playwright_Certificate.pdf)
+
+---
 ## 📫 Let's Connect
 - **LinkedIn:** [Alina Kuliak](https://www.linkedin.com/in/alina-kuliak)
 - **Email:** alinakuliak@gmail.com
