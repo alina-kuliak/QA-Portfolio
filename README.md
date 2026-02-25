@@ -41,5 +41,5 @@ I am currently deepening my hands-on experience with **Playwright** for automate
 ---
 
 ## 📫 Let's Connect
-- **LinkedIn:** [[Alina Kuliak]](www.linkedin.com/in/alina-kuliak)
+- **LinkedIn:** [Alina Kuliak](www.linkedin.com/in/alina-kuliak)
 - **Email:** alinakuliak@gmail.com
