@@ -11,7 +11,7 @@ This directory contains the core QA artifacts produced during the **Huntd** test
 | **Test Plan** | `PDF` | Defines the testing strategy, scope, environment requirements, and risk assessment for Web & Mobile. |
 | **RTM Table** | `PDF` | **Requirements Traceability Matrix** mapping business requirements to test cases to ensure 100% coverage. |
 | **Permission Table** | `PDF` | Validates Role-Based Access Control (RBAC) for Guest, Candidate, and Recruiter roles. |
-| **Full Test Cases** | `XLSX` | Complete suite of **150+ test cases** covering functional, integration, and UI/UX scenarios. |
+| **Full Test Cases** | `XLSX` | Complete suites of **130+ test cases for Mobile** and **300+ test cases for WEB** covering functional, integration, and UI/UX scenarios. |
 | **Test Summary Report** | `PDF` | Final evaluation of quality, including defect metrics and the "Go/No-Go" release recommendation. |
 
 ---
