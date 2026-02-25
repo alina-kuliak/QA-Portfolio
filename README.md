@@ -19,3 +19,12 @@ My approach combines technical rigor with a deep focus on **Accessibility** — 
 | **Automation** | Playwright (Basic/Learning) |
 
 ---
+## 💼 What I Offer Your Team
+
+- **End-to-End Quality Ownership:** I manage the full testing cycle, from requirement decomposition and test design techniques to final regression.
+- **Data-Driven Validation:** I don't just test the UI; I use **SQL** and **Postman** to ensure backend integrity and database accuracy.
+- **Agile Integration:** Active participant in Scrum ceremonies with a clear understanding of how QA fits into a fast-paced development sprint.
+- **Precision Documentation:** Expert at creating reproducible bug reports and Traceability Matrices (RTM) to ensure 100% requirement coverage.
+- **Universal Access:** A strong advocate for **Accessibility**, ensuring products meet the highest standards for all users.
+
+---
