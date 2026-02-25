@@ -38,3 +38,8 @@ My approach combines technical rigor with a deep focus on **Accessibility** — 
 
 I am currently deepening my hands-on experience with **Playwright** for automated end-to-end testing and exploring advanced **CI/CD** integration to streamline the QA pipeline.
 
+---
+
+## 📫 Let's Connect
+- **LinkedIn:** [[Alina Kuliak]](www.linkedin.com/in/alina-kuliak)
+- **Email:** alinakuliak@gmail.com
