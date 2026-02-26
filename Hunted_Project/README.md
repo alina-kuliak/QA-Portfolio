@@ -36,13 +36,13 @@ The goal of this project was to conduct rigorous manual testing across the **Web
 I have organized the project documentation into logical sections. You can view the specific files below:
 
 ### **Web Testing Documentation**
-- [📄 Test Plan - Web](./Certificates/Test_Plan_WEB.pdf)
-- [📊 Permission Table - Web](./Certificates/Permission_Table_WEB.pdf)
-- [🔗 RTM (Traceability Matrix) - Web](./Certificates/RTM_WEB.pdf)
-- [🧪 TestRail Suite - Web](https://your-testrail-link-here.com)
+- [📄 Test Plan - Web](./Hunted_Project/Docs/Test_Plan_Web_Huntd_%5BAlina%20Kuliak%5D.pdf)
+- [📊 Permission Table - Web](./Hunted_Project/Docs/Permission_table_WEB.png)
+- [🔗 RTM (Traceability Matrix) - Web](./Hunted_Project/Docs/RTM%20task%20WEB%20%5BAlina%20Kuliak%5D%20-%20Huntd%20WEB.pdf)
+- [🧪 TestRail Suite - Web](./Hunted_Project/Docs/Hunted_web_test_cases.pdf)
 
 ### **Mobile Testing Documentation**
-- [📄 Test Plan - Mobile](./Certificates/Test_Plan_Mobile.pdf)
+- [📄 Test Plan - Mobile](./Certificates/Test_Plan_Web_Huntd_Alina Kuliak.pdf)
 - [📊 Permission Table - Mobile](./Certificates/Permission_Table_Mobile.pdf)
 - [🔗 RTM (Traceability Matrix) - Mobile](./Certificates/RTM_Mobile.pdf)
 - [🧪 TestRail Suite - Mobile](https://your-testrail-link-here.com)
