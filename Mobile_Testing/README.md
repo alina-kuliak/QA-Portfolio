@@ -18,7 +18,7 @@ This folder contains documentation and results from comprehensive mobile applica
 * **Workflow:**
     * Executed comprehensive test checklists focusing on the user journey (search, filtering, and watchlists).
     * Utilized **Screen Recording** tools to provide high-fidelity visual evidence for bug reports.
-    * **Jira Integration:** Created a dedicated Story: [Mobile Native Apps [Alina](./Jira_IMDb_testing.png).
+    * **Jira Integration:** Created a dedicated Story: [Mobile Native Apps](./Jira_IMDb_testing.png).
     * **Reporting:** Logged high-priority [bugs](./BUG_REPORTS_IMDb.md) including **Environment** specifications and clear **Priority** levels to streamline the development fix-cycle.
 ---
 ### 2. Evernote: Performance & Resource Monitoring
@@ -27,7 +27,7 @@ This folder contains documentation and results from comprehensive mobile applica
     * Conducted synchronization and note-creation tests while monitoring system health.
     * **Performance Tracking:** Used **CPU Monitors** to track real-time CPU spikes and battery drainage during heavy app usage.
     * **Documentation:** Attached resource-usage [bug reports](./BUG_REPORTS_Evernote.md) to Jira tasks to provide developers with data-driven performance insights.
-    * **Jira Integration:** Managed under the story: [Third Mobile Test [Alina](./Jira_Evernote_testing.png).
+    * **Jira Integration:** Managed under the story: [Third Mobile Test](./Jira_Evernote_testing.png).
 ---
 ### 3. Handyman: Technical Debugging & Log Analysis
 * **Objective:** Perform deep-dive technical testing using developer tools and system logs.
@@ -35,7 +35,7 @@ This folder contains documentation and results from comprehensive mobile applica
     * **Environment Setup:** Configured **Android Studio** and set up virtual devices (Emulators) for APK testing.
     * **Logcat Analysis:** Monitored the [com.call4site.handymanservices.](https://drive.google.com/file/d/1nYLOF_BvPqk28u8vO4KquAK1oQQCE8Ob/view?usp=sharing) package via **Logcat** to identify hidden exceptions and system crashes.
     * **Technical Reporting:** Created [bug reports](./BUG_REPORTS_Handyman.md) that included filtered, relevant system logs and synchronized videos showing the exact moment of failure within the Logcat stream.
-    * **Jira Integration:** Documented under: [Android Studio [Alina](./Jira_Handyman_test.png).
+    * **Jira Integration:** Documented under: [Android Studio](./Jira_Handyman_test.png).
 
 ---
 
