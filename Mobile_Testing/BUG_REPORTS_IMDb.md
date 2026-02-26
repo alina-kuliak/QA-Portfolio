@@ -5,7 +5,7 @@ This document contains detailed bug reports identified during the functional tes
 ---
 
 ## [CON-23] App opens without content/error message when offline
-**Status:** `TO DO` | **Priority:** `Medium` | **Project:** `Conduit`
+**Status:** `TO DO` | **Priority:** `Medium` | **Project:** `IMDb`
 
 ### 📋 Overview
 The application fails to provide user feedback (validation messages) when launched without an active internet connection, leading to a blank UI state.
@@ -29,12 +29,12 @@ The application fails to provide user feedback (validation messages) when launch
 * **Actual Result:** The app opens to a blank state with no content and no error/validation messages.
 
 ### 📎 Attachments
-* **Video Evidence:** [Link to Reproduction Video]
+* **Video Evidence:** [Link to Reproduction Video](https://drive.google.com/file/d/1RJXXtmsLekoW7tjFWHc3iHU2f3_Ndugx/view?usp=sharing)
 
 ---
 
 ## [CON-24] UI fails to rotate to landscape after disabling orientation lock
-**Status:** `TO DO` | **Priority:** `Medium` | **Project:** `Conduit`
+**Status:** `TO DO` | **Priority:** `Medium` | **Project:** `IMDb`
 
 ### 📋 Overview
 The application page orientation remains stuck in portrait mode even after the system-level portrait orientation lock is disabled and the device is rotated.
@@ -61,7 +61,7 @@ The application page orientation remains stuck in portrait mode even after the s
 * **Actual Result:** The app’s page orientation remains fixed in portrait mode and does not respond to device rotation.
 
 ### 📎 Attachments
-* **Video Evidence:** [Link to Reproduction Video]
+* **Video Evidence:** [Link to Reproduction Video](https://drive.google.com/file/d/1WfZEoePhnF-4PVeHkjkyFazIMAvpCjZ8/view?usp=drive_link)
 
 ---
 *Created by Alina Kuliak — Mobile QA Portfolio*
