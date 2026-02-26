@@ -39,13 +39,16 @@ I have organized the project documentation into logical sections. You can view t
 - [📄 Test Plan - Web](./Docs/Test_Plan_Web_Huntd_%5BAlina%20Kuliak%5D.pdf)
 - [📊 Permission Table - Web](./Docs/Permission_table_WEB.png)
 - [🔗 RTM (Traceability Matrix) - Web](./Docs/RTM%20task%20WEB%20%5BAlina%20Kuliak%5D%20-%20Huntd%20WEB.pdf)
-- [🧪 TestRail Suite - Web](./Docs/Hunted_web_test_cases.pdf)
+- [🧪 Test Cases_Suite - Web](./Docs/Hunted_web_test_cases.pdf)
+- [🧪 TestRail - Web](./Docs/TestRail_Hunted_Project_WEB.png)
 
 ### **Mobile Testing Documentation**
-- [📄 Test Plan - Mobile](./Certificates/Test_Plan_Web_Huntd_Alina Kuliak.pdf)
-- [📊 Permission Table - Mobile](./Certificates/Permission_Table_Mobile.pdf)
-- [🔗 RTM (Traceability Matrix) - Mobile](./Certificates/RTM_Mobile.pdf)
-- [🧪 TestRail Suite - Mobile](https://your-testrail-link-here.com)
+- [📄 Test Plan - Mobile](./Docs/Test_Plan_Mobile_Huntd_%5BAlina%20Kuliak%5D.pdf)
+- [📊 Permission Table - Mobile](./Docs/Permission_table_Mobile.png)
+- [🔗 RTM (Traceability Matrix) - Mobile](./Docs/RTM%20task%20Mobile%20%5BAlina%20Kuliak%5D%20-%20Huntd%20Mobile.pdf)
+- [🧪 Test Cases_Suite - Mobile](./Docs/Hunted_mobile_test_cases.pdf)
+- [🧪 TestRail - Mobile](./Docs/TestRail_Hunted_Mobile.png)
+
 
 ### **Defect Tracking**
 - [🐞 Jira Bug Dashboard](https://your-jira-link-here.com)
