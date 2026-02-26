@@ -37,12 +37,12 @@ Full coverage of key endpoints (`/api/users`, `/api/articles`, `/api/comments`):
 ### 📋 1. Test Planning & Analysis
 Foundational documents where the testing strategy and system logic were defined.
 * [**Test Plan**](./DocsConduit/Test_Plan_Conduit.pdf) – Overall strategy, scope, and test objectives.
-* [**Functional Decomposition**](./DocsConduit/Decomposition_Conduit.md) – Hierarchical breakdown of application features.
+* [**Functional Decomposition**](./Decomposition_Conduit.md) – Hierarchical breakdown of application features.
 * [**Client-Server Architecture**](./DocsConduit/Client_server_architecture_Conduit.pdf) – Technical overview of system interactions.
 
 ### 🧪 2. Test Design (Manual & Technical)
 Application of various test design techniques to ensure maximum coverage with optimized effort.
-* [**Test Cases (Markdown)**](./DocsConduit/Test_Cases.md) – Interactive list of detailed test scenarios.
+* [**Test Cases (Markdown)**](./Test_Cases.md) – Interactive list of detailed test scenarios.
 * [**Test Cases (PDF Version)**](./DocsConduit/Test_Cases_ConduitPDF.pdf) – Portable version of the test suite.
 * [**Decision Table Testing**](./DocsConduit/Decision_table_testing_for_Conduit.pdf) – Logic-based testing for complex business rules.
 * [**Pairwise Technique**](./DocsConduit/Pairwise_technique_Conduit.pdf) – Combinatorial testing for input parameters.
