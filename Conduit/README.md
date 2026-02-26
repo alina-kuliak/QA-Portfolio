@@ -32,33 +32,39 @@ Full coverage of key endpoints (`/api/users`, `/api/articles`, `/api/comments`):
 * **Response Validation:** JavaScript-based test scripts to verify JSON schema structure, mandatory fields, and data types.
 
 ---
+## 📂 Project Artifacts & Documentation
 
-## 📁 Project Artifacts
+### 📋 1. Test Planning & Analysis
+Foundational documents where the testing strategy and system logic were defined.
+* [**Test Plan**](./DocsConduit/Test_Plan_Conduit.pdf) – Overall strategy, scope, and test objectives.
+* [**Functional Decomposition**](./DocsConduit/Decomposition_Conduit.md) – Hierarchical breakdown of application features.
+* [**Client-Server Architecture**](./DocsConduit/Client_server_architecture_Conduit.pdf) – Technical overview of system interactions.
 
-### 📋 Documentation
-* [Test_Plan_Conduit_[Alina Kuliak].pdf](./Docs/Test_Plan_Conduit_%5BAlina%20Kuliak%5D.pdf) — Strategy, scope, and risk assessment.
-* [Decomposition_Conduit_[Alina Kuliak].pdf](./Docs/Decomposition_Conduit_%5BAlina%20Kuliak%5D.pdf) — Feature decomposition and hierarchy.
-* [Test_Cases_Conduit.pdf](./Docs/Test_Cases_Conduit.pdf) — Detailed test scenarios and execution steps.
-* [Bug_Reports_Conduit.pdf](./Docs/Bug_Reports_Conduit.pdf) — Comprehensive log of identified defects.
+### 🧪 2. Test Design (Manual & Technical)
+Application of various test design techniques to ensure maximum coverage with optimized effort.
+* [**Test Cases (Markdown)**](./DocsConduit/Test_Cases.md) – Interactive list of detailed test scenarios.
+* [**Test Cases (PDF Version)**](./DocsConduit/Test_Cases_ConduitPDF.pdf) – Portable version of the test suite.
+* [**Decision Table Testing**](./DocsConduit/Decision_table_testing_for_Conduit.pdf) – Logic-based testing for complex business rules.
+* [**Pairwise Technique**](./DocsConduit/Pairwise_technique_Conduit.pdf) – Combinatorial testing for input parameters.
 
-### 🧪 API Assets (Postman)
-* [Postman_Collection_Conduit.json](./Postman-Collections/Conduit_Collection.json) — Exported test collection for easy import.
-* [Postman_Environment_Conduit.json](./Postman-Collections/Conduit_Environment.json) — Global variables and environment settings.
+### 🚀 3. API Testing (Postman)
+Automated validation of REST API endpoints to ensure backend stability.
+* [**API Endpoints Overview**](./DocsConduit/Conduit_API_endpoints.pdf) – Documentation of tested routes and parameters.
+* [**Postman Run Results**](./DocsConduit/Postman_Run_Result_Conduit.png) – Evidence of automated test suite execution and status codes validation.
 
-### 🖼 Evidence
-* [Jira_Dashboard_Conduit.png](./Docs/Jira%20Dashboard%20Conduit.png) — Screenshot of the development and testing workflow in Jira.
+### 📊 4. Management & Evidence
+Screenshots from Jira and Postman proving the practical execution of the project.
+* [**Jira_Conduit_Bug_Report**](./DocsConduit/Jira_Conduit_Bug_Reports.png) – Workflow and defect tracking for UI testing.
+* [**Manual Testing Jira Board**](./DocsConduit/Jira_Conduit_Manual.png) – Workflow and defect tracking for UI testing.
+* [**API Testing Jira Board**](./DocsConduit/Jira_Postman_Practice.png) – Task management for the Postman automation phase.
 
 ---
 
-## 📊 Key Results
-* Developed a full **RTM (Requirements Traceability Matrix)** to link business requirements with test coverage.
-* Created a Postman collection automating the verification of core API endpoints.
-* Successfully identified and documented critical integration issues between the Frontend and Backend, specifically regarding $422$ error handling.
+## 🛠 Tools Used
+* **Test Management:** Jira (Agile/Scrum).
+* **API Testing:** Postman (JavaScript snippets for automated assertions).
+* **Documentation:** Markdown, PDF.
+* **Techniques:** Boundary Value Analysis, Equivalence Partitioning, Decision Tables, Pairwise.
 
 ---
-
-### 💡 How to run API tests locally?
-1. Clone the repository.
-2. Import `Conduit_Collection.json` into Postman.
-3. Select `Conduit_Environment.json` in the Environment dropdown.
-4. Run the collection via the **Postman Collection Runner** to view automated test results.
+*Prepared by: Alina Kuliak*
