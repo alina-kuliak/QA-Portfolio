@@ -14,7 +14,7 @@ To manage the testing lifecycle, the following infrastructure was established:
 
 ## 🔗 Live Postman Workspace
 You can view the interactive documentation, environment variables, and automated test scripts here:
-👉 **[View My Public Postman Workspace](PASTE_YOUR_PUBLIC_WORKSPACE_LINK_HERE)**
+👉 **[View My Public Postman Workspace](https://www.postman.com/alinakuliak/workspace/postman-practice-alina-kuliak/collection/40251860-63fa10ca-fa27-4d2f-9287-1152e09b87cf?action=share&source=copy-link&creator=40251860)**
 
 ---
 
