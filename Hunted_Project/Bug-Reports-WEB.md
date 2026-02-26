@@ -4,7 +4,7 @@ This document logs defects identified during the web application testing cycle. 
 
 ---
 
-### [HUN-W-001] Broken Google Play Store link on Main page
+### [HUN-W-001] 'Not found' page on Google Play button click
 **Severity:** 🔴 Major | **Priority:** Medium
 
 <details>
@@ -12,19 +12,20 @@ This document logs defects identified during the web application testing cycle. 
 
 | Field | Description |
 | :--- | :--- |
-| **Summary** | The 'Not found' page opens after clicking the 'Get it on Google Play' button on the 'Main' page. |
-| **Environment** | Windows 11 | Chrome v144 | Stage |
-| **Preconditions** | User is logged in. |
+| **Summary** | The 'Not found' page is opened after clicking the 'Get it on Google Play' button on the 'Main' page. |
+| **Environment** | **OS:** Windows 11 Home <br> **Browser:** Chrome v144.0.7559.133 <br> **Version:** Stage |
+| **Preconditions** | User is logged in. <br> **Test Data:** Email: `qaTestTeam@qa.team`, Pass: `12345`. |
 | **Steps** | 1. Open the main page URL. <br> 2. Click the [Get it on Google Play] button. |
-| **Actual Result** | A 'Not found' 404 error page is displayed. |
-| **Expected Result** | Redirect to the official Google Play store page showing app icon and details. |
+| **Actual Result** | The 'Not found' page is displayed. |
+| **Expected Result** | The Google Play page is displayed with the app name, icon, and details. |
+| **Attachments** | **Screenshot:** [View Link](Screenshot_HUN_W_001) <br> **Video:** [View Link](Video_HUN_W_001) |
 | **Ref** | TC-MP-027 |
 
 </details>
 
 ---
 
-### [HUN-W-002] Candidates list not displayed for unauthorized users
+### [HUN-W-002] Candidates list hidden from unauthorized users
 **Severity:** 🟠 Moderate | **Priority:** Medium
 
 <details>
@@ -32,19 +33,41 @@ This document logs defects identified during the web application testing cycle. 
 
 | Field | Description |
 | :--- | :--- |
-| **Summary** | The candidates list is not displayed for unauthorized users on the 'Candidates' page. |
-| **Environment** | Windows 11 | Chrome v144 |
+| **Summary** | The candidates list is not displayed for unauthorized user on the 'Candidates' page. |
+| **Environment** | **OS:** Windows 11 Home <br> **Browser:** Chrome v144.0.7559.133 <br> **Version:** Stage |
 | **Preconditions** | User is logged out. |
 | **Steps** | 1. Open the main page URL. <br> 2. Click the 'Candidates' tab on the navigation menu. |
-| **Actual Result** | The page is entirely empty; no candidate list is shown. |
-| **Expected Result** | A list of candidate cards with relevant professional information should be visible. |
+| **Actual Result** | Candidates list is not displayed; the page is empty. |
+| **Expected Result** | List of candidate cards with relevant information is displayed. |
+| **Attachments** | **Screenshot:** [View Link](Screenshot_HUN_W_002) <br> **Video:** [View Link](Video_HUN_W_002) |
 | **Ref** | TC-CP-029 |
 
 </details>
 
 ---
 
-### [HUN-W-004] Weak password validation (3 characters accepted)
+### [HUN-W-003] Candidate cards visual separation failure
+**Severity:** 🟠 Moderate | **Priority:** Medium
+
+<details>
+  <summary>View Full Report Details</summary>
+
+| Field | Description |
+| :--- | :--- |
+| **Summary** | Candidates are not displayed as individual cards for unauthorized user on the 'Candidates' page. |
+| **Environment** | **OS:** Windows 11 Home <br> **Browser:** Chrome v144.0.7559.133 <br> **Version:** Stage |
+| **Preconditions** | User is logged out. |
+| **Steps** | 1. Open the main page URL. <br> 2. Click the 'Candidates' tab on the navigation menu. |
+| **Actual Result** | Candidates are not displayed as separate cards; page is empty. |
+| **Expected Result** | Each candidate is displayed as a separate card with visual separation (borders/shadows/spacing). |
+| **Attachments** | **Screenshot:** [View Link](Screnshoot_HUN_W_003) <br> **Video:** [View Link](Video_HUN_W_003) |
+| **Ref** | TC-CP-030 |
+
+</details>
+
+---
+
+### [HUN-W-004] Weak password validation (3 characters allowed)
 **Severity:** 🔴 Major | **Priority:** Medium
 
 <details>
@@ -52,18 +75,20 @@ This document logs defects identified during the web application testing cycle. 
 
 | Field | Description |
 | :--- | :--- |
-| **Summary** | User is successfully signed up using only a 3-character password. |
-| **Environment** | Windows 11 | Chrome v144 |
-| **Steps** | 1. Navigate to Sign Up. <br> 2. Enter valid email and a 3-char password (e.g., 's12'). <br> 3. Click [Create account]. |
-| **Actual Result** | Registration proceeds; no validation error is triggered. |
-| **Expected Result** | System rejects the password; validation error is displayed; user remains on Sign Up page. |
+| **Summary** | User is able to sign up with a 3-character password. |
+| **Environment** | **OS:** Windows 11 Home <br> **Browser:** Chrome v144.0.7559.133 <br> **Version:** Stage |
+| **Preconditions** | User is on the Sign Up page. <br> **Test Data:** Email: `xxxxx@qa.team`, Pass: `s12`. |
+| **Steps** | 1. Enter a valid email. <br> 2. Enter a 3-character password in 'Password' and 'Repeat password' fields. <br> 3. Click [Create account]. |
+| **Actual Result** | Registration proceeds; no validation error displayed. |
+| **Expected Result** | Validation error displayed for the 'Password' field. Registration is blocked. |
+| **Attachments** | **Video:** [View Link](Video_HUN-W_004) |
 | **Ref** | TC-SU-101 |
 
 </details>
 
 ---
 
-### [HUN-W-005] Numeric values accepted in 'My role' field (Recruiter)
+### [HUN-W-005] Numeric values accepted in 'Role' field
 **Severity:** 🔴 Major | **Priority:** Medium
 
 <details>
@@ -71,18 +96,20 @@ This document logs defects identified during the web application testing cycle. 
 
 | Field | Description |
 | :--- | :--- |
-| **Summary** | System accepts numeric input in the 'My role' field during recruiter registration. |
-| **Environment** | Windows 11 | Chrome v144 |
-| **Steps** | 1. Enter numbers in 'My role' (e.g., '12'). <br> 2. Enter valid company name. <br> 3. Click [Save and continue]. |
-| **Actual Result** | No error shown; user proceeds to 'Contact information' page. |
-| **Expected Result** | Validation error displayed for the 'My role' field; navigation prevented. |
+| **Summary** | User is continuing recruiter registration after entering a numeric value in the 'Role' field. |
+| **Environment** | **OS:** Windows 11 Home <br> **Browser:** Chrome v144.0.7559.133 <br> **Version:** Stage |
+| **Preconditions** | User is on 'Company details' form. <br> **Test Data:** My role: `12`, Company: `Academy`. |
+| **Steps** | 1. Enter numbers in the 'My role' field. <br> 2. Enter a valid company name. <br> 3. Click [Save and continue]. |
+| **Actual Result** | No error message shown. User proceeds to the 'Contact information' page. |
+| **Expected Result** | Validation error displayed for the 'My role' field. Form remains active. |
+| **Attachments** | **Video:** [View Link](Video_HUN_W_005) |
 | **Ref** | TC-SR-115 |
 
 </details>
 
 ---
 
-### [HUN-W-006] Mixed alphabet validation failure (Cyrillic/Latin)
+### [HUN-W-006] Inconsistent alphabet validation failure (Mixed Cyrillic/Latin)
 **Severity:** 🔴 Major | **Priority:** Medium
 
 <details>
@@ -90,11 +117,13 @@ This document logs defects identified during the web application testing cycle. 
 
 | Field | Description |
 | :--- | :--- |
-| **Summary** | System allows registration when 'First Name' and 'Last Name' use different alphabets. |
-| **Environment** | Windows 11 | Chrome v144 |
-| **Steps** | 1. Enter First Name in Cyrillic (e.g., Іван). <br> 2. Enter Last Name in Latin (e.g., Ivanenko). <br> 3. Click [Save and continue]. |
+| **Summary** | System allows registration when 'First Name' and 'Last Name' use different alphabets (Cyrillic/Latin). |
+| **Environment** | **OS:** Windows 11 Home <br> **Browser:** Chrome v144.0.7559.133 <br> **Version:** Stage |
+| **Preconditions** | User is on 'Contact Information' form. <br> **Test Data:** First Name: `Іван` (Cyr.), Last Name: `Ivanenko` (Lat.). |
+| **Steps** | 1. Enter First Name in Cyrillic. <br> 2. Enter Last Name in Latin. <br> 3. Click [Save and continue]. |
 | **Actual Result** | User proceeds to the next page without a validation error. |
-| **Expected Result** | System should flag inconsistent alphabet use or enforce specific character sets; validation message shown. |
+| **Expected Result** | User is not able to continue. Validation message about inconsistent alphabet use is shown. |
+| **Attachments** | **Video:** [View Link](Video_HUN_W_006) |
 | **Ref** | TC-SR-123 |
 
 </details>
