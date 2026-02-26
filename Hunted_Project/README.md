@@ -51,11 +51,11 @@ I have organized the project documentation into logical sections. You can view t
 
 
 ### **Defect Tracking**
-- [🐞 Jira Bug Dashboard](https://your-jira-link-here.com)
+- [🐞 Jira Bug Dashboard](./Docs/Jira%20Hunted%20Project.png)
 
 ---
 
 ## 🏁 Final Project Output
-The project concluded with a **Test Summary Report** evaluating all identified defects. By identifying critical functional inconsistencies and UI bugs, I provided the development team with the necessary insights to improve the app's stability and user experience before the final launch.
+The project concluded with a [**Test Summary Report**](./Docs/Huntd%20Test%20Report.pdf) evaluating all identified defects. By identifying critical functional inconsistencies and UI bugs, I provided the development team with the necessary insights to improve the app's stability and user experience before the final launch.
 
 ---
