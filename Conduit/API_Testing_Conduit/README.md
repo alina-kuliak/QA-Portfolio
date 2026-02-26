@@ -7,7 +7,7 @@ This section documents the functional and automated testing of the Conduit REST 
 ## 🛠 Project Setup & Infrastructure
 To manage the testing lifecycle, the following infrastructure was established:
 * **Postman Workspace:** Created a dedicated team workspace to house the test suite and environment configurations.
-* **Jira Integration:** A new project was initialized in Jira to manage test tasks, user stories, and defect tracking.
+* **[Jira Integration:](./DocsConduit/Jira_Postman_Practice.png)** A new project was initialized in Jira to manage test tasks, user stories, and defect tracking.
 * **Collection:** Developed the `Postman Practice [Alina Kuliak]` collection containing a complete suite of CRUD operations and edge-case scenarios.
 
 ---
@@ -21,7 +21,7 @@ You can view the interactive documentation, environment variables, and automated
 ## 📑 Testing Scope & Implementation
 
 ### 1. Endpoint Verification
-I observed and tested the core Conduit API endpoints, including:
+I observed and tested the core [Conduit API](./DocsConduit/Conduit_API_endpoints.pdf) endpoints, including:
 * **Authentication:** `POST /api/users/login` and `POST /api/users` (Sign up).
 * **User Management:** `GET /api/user` and `PUT /api/user`.
 * **Articles:** `GET /api/articles`, `POST /api/articles`, `PUT /api/articles/:slug`, `DELETE /api/articles/:slug`.
@@ -55,4 +55,4 @@ Bugs identified during API testing were reported in Jira and linked to correspon
 ## ✅ Execution Results
 Below is a screenshot of the **Postman Collection Runner** demonstrating the successful execution of the test suite:
 
-![Postman Runner Results](./Docs/Postman_Runner_Results.png)
+![Postman Runner Results](./DocsConduit/Postman_Run_Result_Conduit.png)
