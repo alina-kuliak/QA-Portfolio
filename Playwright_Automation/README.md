@@ -1,48 +1,50 @@
-# UI Automation with Playwright
+# Playwright Test Automation Framework | Portfolio
 
-## 📌 Project Overview
-This folder contains a collection of automated test suites for various web applications (**Conduit**, **CoffeeCart**, **Wizard Bank**). The project focuses on creating robust, maintainable, and scalable test automation frameworks using modern industry standards.
+## 📌 Executive Summary
+This folder contains a sophisticated E2E (End-to-End) automation framework built with **Playwright (JavaScript)**. It demonstrates the application of modern software testing patterns to validate critical business logic across multiple web platforms, including E-commerce (**CoffeeCart**), FinTech (**Wizard Bank**), and Social Platforms (**Conduit**).
 
----
-
-## 🛠 Automation Features & Implementation
-
-### 🏗 Framework Architecture
-* **Page Object Model (POM):** Implemented for **Conduit SignUp** and **CoffeeCart** to separate test logic from page-specific elements, ensuring high maintainability.
-* **Test Organization:** Structured test suites using `describe` blocks and logical grouping in `Conduit_tests_organization`.
-* **Global Configuration:** Advanced setup of `BaseURL`, browser viewports, and multi-browser support (Chromium, Firefox, WebKit).
-
-### 🧪 Test Scenarios & Logic
-* **Functional Testing:** End-to-end flows for adding products (Cappuccino) and verifying cart logic.
-* **Negative Testing:** Validation of Sign-up forms with invalid data and error message assertions.
-* **UI/UX Validation:** Presence and visibility checks for form elements.
-* **Complex Assertions:** Using Playwright's `expect` library to validate UI states, counts, and URL transitions.
-
-### ⚙️ Execution & Reporting
-* **Parallel Execution:** Configured to run tests in parallel to optimize execution time.
-* **Reporting:** Setup of built-in reporters (HTML, List) for clear visibility of test results and debugging.
+The project highlights the transition from basic scripting to a scalable **Page Object Model (POM)** architecture, incorporating dynamic data generation, cross-browser testing, and advanced assertion strategies.
 
 ---
 
-## 📂 File Structure Guide
-
-| File Name | Description |
-| :--- | :--- |
-| `POM_for_Conduit_SignUp_tests` | Implementation of Page Object Model for the Conduit app. |
-| `POM_for_CoffeeCart` | Page objects and action methods for the CoffeeCart app. |
-| `Wizard_bank_tests` | Automation of banking flows and transaction logic. |
-| `Reporters_and_parallel_execution` | Configuration for performance and result visualization. |
-| `BaseURL_and_Browsers_configuration` | Global project settings for environment and cross-browser testing. |
-| `Assertions_for_the_Cappuccino_tests`| Deep dive into data-driven assertions and UI state validation. |
-| `Sign_up_negative_tests` | Security and validation testing for user registration. |
+## 🛠 Tech Stack & Tools
+* **Core:** Playwright (Node.js)
+* **Design Pattern:** Page Object Model (POM)
+* **Data Generation:** Faker.js
+* **Configuration:** Multi-browser (Chromium, Firefox, WebKit), Parallel Execution
+* **Reporting:** Playwright HTML Reporter, Trace Viewer
 
 ---
 
-## 🚀 How to Run
-1.  **Install dependencies:** `npm install`
-2.  **Run all tests:** `npx playwright test`
-3.  **Run specific suite:** `npx playwright test Coffecart_tests.spec.js`
-4.  **Show report:** `npx playwright show-report`
+## 📂 Folder Documentation Structure
+
+### 🏗 Architecture & Core Configuration
+Detailed documentation regarding the framework's foundation and execution environment:
+* **[BaseURL & Browser Configuration](./BaseURL_and_Browsers_configuration_Alina_Kuliak.pdf)** – Environment-specific setups and cross-browser strategies.
+* **[Reporters & Parallelization](./Reporters_and_parallel_execution_configuration.pdf)** – Optimization of test execution speed and results visualization.
+
+### 🧩 Page Object Model (POM) Implementations
+Showcasing the separation of UI locators from functional test logic:
+* **[CoffeeCart POM Implementation](./POM_for_CoffeeCart.md)** – Modular classes for menu navigation and checkout logic.
+* **[Conduit Registration POM](./POM_for_Conduit_SignUp_tests.md)** – Encapsulated registration flows using dynamic data.
+
+### 🧪 Specialized Test Suites
+Comprehensive validation scenarios covering different testing layers:
+* **[Functional: CoffeeCart E2E](./Coffecart_tests.md)** – End-to-end shopping cart lifecycle.
+* **[Functional: Cappuccino Assertions](./Assertions_for_the_Cappuccino_tests.md)** – Complex data validation and price calculation logic.
+* **[Validation: Negative Registration](./Sign_up_negative_tests.md)** – Boundary testing and server-side error message verification.
+* **[Smoke: UI Integrity](./Sign_up_form_elements_presence_test.md)** – Critical element presence and visibility checks.
+* **[Organization: Test Orchestration](./Conduit_tests_organization.md)** – Use of hooks (`beforeEach`, `describe`) for clean test lifecycle management.
 
 ---
-*Created by Alina Kuliak*
+
+## 🚀 Key Engineering Highlights
+
+1.  **Resilient Locator Strategy:** Utilization of user-centric locators (`getByRole`, `getByLabel`, `getByPlaceholder`) to ensure test stability against DOM changes.
+2.  **Dynamic Data Injection:** Implementation of **Faker.js** to generate unique, non-colliding user datasets for registration and financial flows.
+3.  **Advanced Web Assertions:** Leveraging Playwright’s auto-retrying assertions to handle asynchronous UI states and promotional pop-ups.
+4.  **Financial Logic Validation:** Specialized tests for the **Wizard Bank** project covering deposit integrity, transaction history, and balance reconciliation.
+
+---
+**Author:** Alina Kuliak  
+**Role:** QA Engineer / Automation Specialist
