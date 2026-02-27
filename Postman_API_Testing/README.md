@@ -22,20 +22,21 @@ Focus on working with existing documentation and retrieving specific data sets.
 * **Student API:** Created requests to fetch all goods, specific items by ID, and filtered "todos" (completed/uncompleted) for specific users.
 * **Status Validations:** Implemented status code tests (200 OK) for all requests in the suite.
 * [🔗 View Collection Link](https://www.postman.com/alinakuliak/workspace/postman-practice-alina-kuliak/collection/40251860-a1885968-04f3-458c-8f1a-8edb5d399fe4?action=share&creator=40251860)
+* [🔗 View Collection Link](https://www.postman.com/alinakuliak/workspace/postman-practice-alina-kuliak/collection/40251860-fcc9e11d-099e-4600-b080-3b1dd82c9437?action=share&source=copy-link&creator=40251860)
 
 ### 2. Functional API Testing (Sign In / Sign Up)
 Validation of user authentication flows and error handling.
 * **Conduit API (Sign In/Up):** Verified successful authentication and handled negative scenarios (already taken email/username).
 * **Variable Injection:** Integrated `BASE_URL` and `passwordConduit` variables to maintain clean and reusable collections.
 * **Advanced Validations:** Fixed complex scripts to ensure 4/4 passed tests for dynamic responses.
-* [🔗 View Collection Link](#)
+** [🔗 View Collection Link](https://www.postman.com/alinakuliak/workspace/postman-practice-alina-kuliak/collection/40251860-ec0faf23-4be9-4e97-9abb-9c0d5d1aa91b?action=share&creator=40251860)
+* [🔗 View Collection Link](https://www.postman.com/alinakuliak/workspace/postman-practice-alina-kuliak/collection/40251860-e3369d23-e75d-49e6-8c96-a0551a1fb429?action=share&source=copy-link&creator=40251860)
 
 ### 3. Scripting Order & Execution Logic
 Deep dive into the Postman hierarchy (Collection -> Folder -> Request).
 * **Logic Validation:** Used Postman Console logging to verify the sequence of script execution across different levels.
 * **Debugging:** Demonstrated proficiency in using the console to track script propagation and debug failures.
-* [🔗 View Collection Link](https://www.postman.com/alinakuliak/workspace/postman-practice-alina-kuliak/collection/40251860-ec0faf23-4be9-4e97-9abb-9c0d5d1aa91b?action=share&creator=40251860)
-* [🔗 View Collection Link](https://www.postman.com/alinakuliak/workspace/postman-practice-alina-kuliak/collection/40251860-e3369d23-e75d-49e6-8c96-a0551a1fb429?action=share&source=copy-link&creator=40251860)
+* [🔗 View Collection Link](https://www.postman.com/alinakuliak/workspace/postman-practice-alina-kuliak/collection/40251860-c3da3adf-687d-441b-961c-b699ade38921?action=share&source=copy-link&creator=40251860)
 
 ### 4. Advanced Pre-Request Scripts & Data Generation
 Using JavaScript to prepare the environment before the request is fired.
