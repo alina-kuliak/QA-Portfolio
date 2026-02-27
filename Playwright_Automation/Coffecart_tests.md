@@ -7,7 +7,7 @@ This suite covers advanced functional scenarios for the **CoffeeCart** applicati
 
 ## 📸 Execution Results
 The following screenshot confirms the successful execution of these functional test cases:
-![Test Execution Screenshot](https://1drv.ms/i/c/6f70d9b489838b4f/IQDgvtxsKPstSKUiD6TEHvKPAeTZVnAlec9VsFP86oKqnmo?e=A7yDpM)
+[Test Execution Screenshot](https://1drv.ms/i/c/6f70d9b489838b4f/IQDgvtxsKPstSKUiD6TEHvKPAeTZVnAlec9VsFP86oKqnmo?e=96xLRc)
 
 ---
 
