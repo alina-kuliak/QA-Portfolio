@@ -1,10 +1,10 @@
-## 🧪 Deep Dive: Assertions for the Cappuccino Tests
+## 🧪 Assertions for the Cappuccino Tests
 
 ### 📸 Execution Screenshot
 [View Test Results](https://1drv.ms/i/c/6f70d9b489838b4f/IQCG_-sYLxlwRY_RxID8LlR3AREywMh0jd1IMhE917ep470?e=Q4aCBK)
 
 ## cappuccinoAddedToCart.spec.js code:
-```
+``` javascript
 test('Check Cappuccino correctly added to the Cart', async ({ page }) \=\> {  
  await page.goto('https://coffee-cart.app/');  
  await page.getByTestId('Cappuccino').click();  
@@ -28,7 +28,7 @@ await expect(cartFirstItemNameLocator).toContainText('Cappuccino');
 ```
 
 ## cappuccinoAddedToTotal.spec.js code:
-```
+```javascript
 test('Check Cappuccino cost is added to Total on menu page', async ({ page }) \=\> {  
  await page.goto('https://coffee-cart.app/');  
  await page.getByTestId('Cappuccino').click();
@@ -39,7 +39,7 @@ test('Check Cappuccino cost is added to Total on menu page', async ({ page }) \=
 ```
 
 ## cappuccinoHasCorrectCost.spec.js code:
-```
+```javascript
 test('Check Cappuccino cup has correct cost', async ({ page }) \=\> {  
  await page.goto('https://coffee-cart.app/');
 
@@ -53,7 +53,7 @@ await expect(parent).toContainText('$19.00');
 ```
 
 ## cappuccinoRemovedFromCart.spec.js code:
-```
+```javascript
 test('Check Cappuccino removed from Cart after clicking remove button', async ({ page }) \=\> {  
  await page.goto('https://coffee-cart.app/');  
  await page.getByTestId('Cappuccino').click();  
