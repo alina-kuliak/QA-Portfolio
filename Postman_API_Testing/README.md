@@ -29,7 +29,7 @@ Validation of user authentication flows and error handling.
 * **Conduit API (Sign In/Up):** Verified successful authentication and handled negative scenarios (already taken email/username).
 * **Variable Injection:** Integrated `BASE_URL` and `passwordConduit` variables to maintain clean and reusable collections.
 * **Advanced Validations:** Fixed complex scripts to ensure 4/4 passed tests for dynamic responses.
-** [🔗 View Collection Link](https://www.postman.com/alinakuliak/workspace/postman-practice-alina-kuliak/collection/40251860-ec0faf23-4be9-4e97-9abb-9c0d5d1aa91b?action=share&creator=40251860)
+* [🔗 View Collection Link](https://www.postman.com/alinakuliak/workspace/postman-practice-alina-kuliak/collection/40251860-ec0faf23-4be9-4e97-9abb-9c0d5d1aa91b?action=share&creator=40251860)
 * [🔗 View Collection Link](https://www.postman.com/alinakuliak/workspace/postman-practice-alina-kuliak/collection/40251860-e3369d23-e75d-49e6-8c96-a0551a1fb429?action=share&source=copy-link&creator=40251860)
 
 ### 3. Scripting Order & Execution Logic
